@@ -1,7 +1,9 @@
-baseURL = ""
+baseURL = "."
 languageCode = "en-us"
 title = "Programming at the aggregate level"
 theme = "reveal-hugo"
+relativeURLs = "true"
+uglyURLs = "true"
 
 [outputFormats.Reveal]
 baseName = "index"
