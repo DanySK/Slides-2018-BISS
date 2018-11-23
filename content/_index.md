@@ -1,5 +1,5 @@
 +++
-title = "My presentation"
+title = "Computing at the aggregate level"
 outputs = ["Reveal"]
 [reveal_hugo]
 theme = "blood"
