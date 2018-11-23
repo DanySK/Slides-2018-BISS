@@ -1,0 +1,9 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Programming at the aggregate level"
+theme = "reveal-hugo"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
