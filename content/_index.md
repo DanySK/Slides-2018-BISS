@@ -26,8 +26,8 @@ slide_number = "true"
   <ul>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=6>"Situatedness"</li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=4>Unpredictability (humans)</li>
-    <li class="fragment fade-in-then-semi-out" data-fragment-index=2>Heterogeneity</li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=1>High density</li>
+    <li class="fragment fade-in-then-semi-out" data-fragment-index=2>Heterogeneity</li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=3>Mobility</li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=5>Openness</li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=7>Safety concerns</li>
@@ -384,9 +384,11 @@ No magic, deployment-specific complexity is simply incapsulated under the hood
 <p class="fragment fade-in" data-fragment-index=0>abstraction raised by hiding networking and protocols</p>
 
 <ul>
-  <li class="fragment fade-in-then-semi-out" data-fragment-index=1>much <b>harder to optimize</b> for bandwidth saving</li>
-  <li class="fragment fade-in-then-semi-out" data-fragment-index=2><b>application-specific optimization happening</b> at the platform level break the paradigm</li>
-  <li class="fragment fade-in-then-semi-out" data-fragment-index=3><b>security</b> is a serious concern</li>
+  <li class="fragment fade-in" data-fragment-index=1><b>harder to optimize</b> for bandwidth saving</li>
+  <ul>
+    <li class="fragment fade-in-then-semi-out" data-fragment-index=2><b>application-specific optimization</b> at the platform level breaks the paradigm</li>
+  </ul>
+  <li class="fragment fade-in" data-fragment-index=3><b>security</b> is a serious concern</li>
   <ul>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=4>Some work on <a href="https://doi.org/10.1016/j.scico.2018.07.006">application-level countermeasures</a></li>
     <li class="fragment fade-in-then-semi-out" data-fragment-index=5>Platform-level attacks disrupt the paradigm</li>
@@ -425,6 +427,12 @@ No magic, deployment-specific complexity is simply incapsulated under the hood
 
 * rich set of tools
 * lots of work to do on optimization and security
+
+<p class="fragment">
+<b>enabling technology</b> for projects dealing with the <b>Internet of Things</b> and <b>Smart Cities</b>
+</p>
+
+
 
 ---
 
